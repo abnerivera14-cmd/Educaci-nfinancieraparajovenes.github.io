@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tu Cartilla — Educación financiera para jóvenes</title>
+<meta name="description" content="Aprende a manejar tu dinero: presupuesto, ahorro, crédito e inversión, pensado para estudiantes de 10.º y 11.º grado.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== ENCABEZADO / NAVEGACIÓN ===== -->
+<header class="topbar">
+  <div class="topbar__inner">
+    <a href="#inicio" class="brand">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" width="30" height="30">
+          <circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="3"/>
+          <text x="24" y="31" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="600" fill="currentColor">$</text>
+        </svg>
+      </span>
+      Tu Cartilla
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#que-es">Qué es</a>
+      <a href="#presupuesto">Presupuesto</a>
+      <a href="#ahorro">Ahorro</a>
+      <a href="#credito">Crédito</a>
+      <a href="#inversion">Inversión</a>
+      <a href="#video">Video</a>
+      <a href="#podcast">Podcast</a>
+      <a href="#simulador" class="nav-cta">Simulador</a>
+      <a href="#recursos">Recursos</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="inicio" class="hero">
+  <div class="hero__ticket">
+    <p class="eyebrow">Educación financiera · 10.º y 11.º grado</p>
+    <h1>Tu dinero, <em>tus reglas.</em></h1>
+    <p class="hero__lead">
+      Nadie te enseña esto en un examen, pero lo vas a usar toda la vida: cómo presupuestar,
+      ahorrar, usar el crédito sin quemarte y dar tus primeros pasos como inversionista.
+      Esta es tu cartilla personal para empezar hoy, con la primera mesada, el primer sueldo
+      o la primera meta de ahorro.
+    </p>
+    <div class="hero__actions">
+      <a href="#que-es" class="btn btn--primary">Empezar a leer</a>
+      <a href="#simulador" class="btn btn--ghost">Probar el simulador →</a>
+    </div>
+  </div>
+  <div class="hero__stat-strip" aria-hidden="true">
+    <div class="stat"><span class="stat__num">50/30/20</span><span class="stat__label">regla de presupuesto</span></div>
+    <div class="stat"><span class="stat__num">72%</span><span class="stat__label">de jóvenes gasta antes de ahorrar¹</span></div>
+    <div class="stat"><span class="stat__num">x2</span><span class="stat__label">tu dinero con interés compuesto</span></div>
+  </div>
+</section>
+
+<main>
+
+<!-- ===== INTRO: ¿QUÉ ES? ===== -->
+<section id="que-es" class="entry">
+  <div class="entry__label">
+    <span class="entry__no">Cuenta 01</span>
+    <h2>¿Qué es la educación financiera?</h2>
+  </div>
+  <div class="entry__body">
+    <p>
+      La educación financiera es la capacidad de entender y usar bien tus habilidades con el
+      dinero: cuánto entra, cuánto sale, cuánto guardas y cómo lo haces crecer. No se trata de
+      ser millonario ni de saber de bolsa de valores desde ya; se trata de tomar decisiones
+      informadas en vez de decisiones por impulso.
+    </p>
+    <p>
+      A los 15 o 17 años probablemente ya manejas dinero: una mesada, propinas, un primer
+      trabajo de medio tiempo o regalos. Las decisiones que tomes con esas primeras cantidades
+      —gastarlo todo, guardarlo, prestarlo, invertirlo— forman hábitos que te van a acompañar
+      por años. La buena noticia es que estos hábitos se aprenden y se entrenan, igual que un
+      idioma o un deporte.
+    </p>
+    <ul class="check-list">
+      <li>Vas a aprender a organizar tu dinero con un presupuesto simple.</li>
+      <li>Vas a entender por qué el ahorro temprano vale más que el ahorro tardío.</li>
+      <li>Vas a distinguir entre deuda "buena" y deuda que te hunde.</li>
+      <li>Vas a conocer, en términos simples, qué es invertir.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== PRESUPUESTO ===== -->
+<section id="presupuesto" class="entry entry--alt">
+  <div class="entry__label">
+    <span class="entry__no">Cuenta 02</span>
+    <h2>El presupuesto: la base de todo</h2>
+  </div>
+  <div class="entry__body">
+    <p>
+      Un presupuesto no es una cárcel para tu dinero: es un mapa. Te dice a dónde va cada
+      peso o dólar antes de que se te escape sin que te des cuenta. Una forma sencilla de
+      empezar, incluso con ingresos pequeños, es la <strong>regla 50/30/20</strong>:
+    </p>
+    <div class="rule-grid">
+      <div class="rule-card">
+        <span class="rule-card__pct">50%</span>
+        <h3>Necesidades</h3>
+        <p>Transporte al colegio, materiales de estudio, comida fuera de casa si aplica.</p>
+      </div>
+      <div class="rule-card">
+        <span class="rule-card__pct">30%</span>
+        <h3>Gustos</h3>
+        <p>Salidas, videojuegos, ropa, streaming: lo que disfrutas sin culpa, con límite.</p>
+      </div>
+      <div class="rule-card">
+        <span class="rule-card__pct">20%</span>
+        <h3>Ahorro y metas</h3>
+        <p>Lo primero que separas, no lo último. Tu "yo del futuro" te lo va a agradecer.</p>
+      </div>
+    </div>
+    <p>
+      Truco real: cuando recibas dinero, aparta primero el 20% de ahorro antes de gastar en
+      cualquier otra cosa. Si esperas a "ver qué sobra" al final del mes, casi siempre sobra
+      cero.
+    </p>
+  </div>
+</section>
+
+<!-- ===== AHORRO ===== -->
+<section id="ahorro" class="entry">
+  <div class="entry__label">
+    <span class="entry__no">Cuenta 03</span>
+    <h2>Ahorro e interés compuesto</h2>
+  </div>
+  <div class="entry__body">
+    <p>
+      Ahorrar es simplemente gastar menos de lo que ganas. Pero lo que hace que el ahorro se
+      vuelva poderoso es el <strong>interés compuesto</strong>: cuando el dinero que ahorras
+      genera intereses, y esos intereses también empiezan a generar intereses. Es una bola de
+      nieve que crece sola mientras más tiempo la dejas rodar.
+    </p>
+    <p>
+      Por eso empezar a los 16 años, aunque sea con poco, tiene una ventaja enorme frente a
+      empezar a los 30: el tiempo hace la mayor parte del trabajo. No necesitas mucho dinero
+      para empezar, necesitas empezar pronto y ser constante.
+    </p>
+    <p>
+      Prueba esto tú mismo en el <a href="#simulador">simulador de ahorro</a> más abajo:
+      cambia el monto semanal y mira cuántas semanas te toma llegar a una meta.
+    </p>
+  </div>
+</section>
+
+<!-- ===== CRÉDITO Y DEUDAS ===== -->
+<section id="credito" class="entry entry--alt">
+  <div class="entry__label">
+    <span class="entry__no">Cuenta 04</span>
+    <h2>Crédito y deudas: úsalos con cabeza</h2>
+  </div>
+  <div class="entry__body">
+    <p>
+      El crédito no es "malo" por sí mismo: es una herramienta. El problema aparece cuando se
+      usa para comprar cosas que no puedes pagar después, o cuando no se entiende cuánto
+      termina costando pedir dinero prestado por los intereses.
+    </p>
+    <ul class="check-list">
+      <li><strong>Deuda que puede ayudarte:</strong> la que financia algo que aumenta tu
+        capacidad de generar ingresos o tu estabilidad, como estudios o herramientas de
+        trabajo, y que puedes pagar con un plan claro.</li>
+      <li><strong>Deuda que te hunde:</strong> la que se usa para gastos que no eran
+        necesarios, sin plan de pago, acumulando intereses mes tras mes.</li>
+    </ul>
+    <p>
+      Una pregunta simple antes de pedir algo prestado: <em>"¿Puedo explicar exactamente
+      cómo y cuándo voy a pagar esto?"</em> Si no tienes respuesta clara, probablemente no es
+      el momento.
+    </p>
+  </div>
+</section>
+
+<!-- ===== INVERSIÓN ===== -->
+<section id="inversion" class="entry">
+  <div class="entry__label">
+    <span class="entry__no">Cuenta 05</span>
+    <h2>Primeros pasos en la inversión</h2>
+  </div>
+  <div class="entry__body">
+    <p>
+      Invertir es poner tu dinero a trabajar para que, con el tiempo, genere más dinero, en
+      vez de dejarlo guardado sin hacer nada. No necesitas ser adulto ni tener grandes sumas
+      para entender la lógica básica:
+    </p>
+    <ol class="numbered-list">
+      <li>Primero se ahorra (guardar una parte de lo que ganas de forma constante).</li>
+      <li>Después se protege ese ahorro (un fondo para emergencias, algo que sí puedas
+        tocar rápido si lo necesitas).</li>
+      <li>Solo con lo que sobra, y a largo plazo, se empieza a invertir en algo que
+        puede crecer con el tiempo.</li>
+    </ol>
+    <p>
+      La inversión real requiere estudio y, en la mayoría de países, una edad mínima o el
+      permiso de un adulto responsable. Por ahora, tu tarea es entender la idea: el dinero
+      que no gastas hoy puede convertirse en más dinero mañana, si sabes dónde y cómo
+      colocarlo.
+    </p>
+  </div>
+</section>
+
+<!-- ===== VIDEO ===== -->
+<section id="video" class="media-block">
+  <div class="entry__label">
+    <span class="entry__no">Recurso audiovisual</span>
+    <h2>Míralo explicado</h2>
+  </div>
+  <p class="media-block__intro">
+    Un video complementa lo que acabas de leer, con ejemplos hablados y casos de la vida real
+    para jóvenes.
+  </p>
+  <div class="media-frame">
+    <iframe
+      src="https://www.youtube.com/embed/FtZmuF7fQTo"
+      title="Educación financiera para jóvenes"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<!-- ===== PODCAST / AUDIO ===== -->
+<section id="podcast" class="media-block media-block--alt">
+  <div class="entry__label">
+    <span class="entry__no">Recurso auditivo</span>
+    <h2>Escúchalo en tu tiempo libre</h2>
+  </div>
+  <p class="media-block__intro">
+    Si prefieres escuchar en vez de leer o ver, este podcast toca los mismos temas —ahorro,
+    presupuesto, deudas e inversión— en formato de conversación.
+  </p>
+  <div class="media-frame media-frame--audio">
+    <iframe
+      style="border-radius:12px"
+      src="https://open.spotify.com/embed/show/7qdN02W0zcLRF44jiBt56s?utm_source=generator"
+      width="100%" height="152" frameborder="0"
+      allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+      title="Podcast de educación financiera">
+    </iframe>
+  </div>
+</section>
+
+<!-- ===== SIMULADOR (elemento firma / interactivo) ===== -->
+<section id="simulador" class="simulator">
+  <div class="entry__label">
+    <span class="entry__no">Cuenta 06 · Interactivo</span>
+    <h2>Simulador de ahorro</h2>
+  </div>
+  <p class="media-block__intro">
+    Fija una meta y un ahorro semanal, y mira cuánto tiempo te toma llegar a cero. Este es el
+    mismo cálculo que usan las apps de finanzas personales, simplificado.
+  </p>
+
+  <div class="sim-card">
+    <div class="sim-card__controls">
+      <label class="sim-field">
+        Meta de ahorro
+        <div class="sim-input">
+          <span>$</span>
+          <input type="number" id="metaInput" value="300000" min="1000" step="1000">
+        </div>
+      </label>
+      <label class="sim-field">
+        Ahorro por semana
+        <div class="sim-input">
+          <span>$</span>
+          <input type="number" id="semanaInput" value="15000" min="500" step="500">
+        </div>
+      </label>
+    </div>
+
+    <div class="sim-card__result">
+      <div class="jar" aria-hidden="true">
+        <svg viewBox="0 0 120 150" width="120" height="150">
+          <defs>
+            <clipPath id="jarClip">
+              <path d="M20,40 h80 v90 a10,10 0 0 1 -10,10 h-60 a10,10 0 0 1 -10,-10 z"/>
+            </clipPath>
+          </defs>
+          <path d="M20,40 h80 v90 a10,10 0 0 1 -10,10 h-60 a10,10 0 0 1 -10,-10 z"
+                fill="none" stroke="#E9EDE4" stroke-width="3"/>
+          <rect x="35" y="18" width="50" height="14" rx="4" fill="none" stroke="#E9EDE4" stroke-width="3"/>
+          <rect x="30" y="10" width="60" height="10" rx="4" fill="#E4A93A"/>
+          <rect id="jarFill" x="20" y="130" width="80" height="0" fill="#1E8E5A" clip-path="url(#jarClip)"/>
+        </svg>
+      </div>
+      <div class="sim-numbers">
+        <p><span id="semanasOut" class="sim-big">0</span> semanas</p>
+        <p class="sim-sub"><span id="mesesOut">0</span> meses aprox. · ahorras <span id="totalOut">$0</span> en total</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RECURSOS / ENLACES EXTERNOS ===== -->
+<section id="recursos" class="entry">
+  <div class="entry__label">
+    <span class="entry__no">Cuenta 07</span>
+    <h2>Para seguir aprendiendo</h2>
+  </div>
+  <div class="entry__body">
+    <p>Sitios confiables, gratuitos, hechos por instituciones de educación financiera, si quieres profundizar por tu cuenta:</p>
+    <ul class="resource-list">
+      <li>
+        <a href="https://www.finanzasparatodos.es" target="_blank" rel="noopener noreferrer">Finanzas para Todos</a>
+        <span>— portal de educación financiera de la CNMV y el Banco de España.</span>
+      </li>
+      <li>
+        <a href="https://edufinet.com" target="_blank" rel="noopener noreferrer">Edufinet</a>
+        <span>— glosario y cursos básicos de finanzas personales en español.</span>
+      </li>
+      <li>
+        <a href="#presupuesto">Repasar la regla 50/30/20</a>
+        <span>— vuelve a la sección de presupuesto de esta página.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <p>Tu Cartilla — recurso educativo sobre educación financiera para estudiantes de 10.º y 11.º grado.</p>
+    <p class="site-footer__note">¹ Dato ilustrativo con fines educativos, usado para introducir el tema del ahorro.</p>
+    <p class="site-footer__note">Proyecto escolar · Diseño y desarrollo del sitio con fines educativos.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
